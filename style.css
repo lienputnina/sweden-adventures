@@ -1,22 +1,31 @@
+/* TODO - 1.Add shadows to everything + shadows on-hover, 2. Make logos and language squares change color on hover */
+
 body {
+  margin: 0;
+  padding: 0;
   background-color: #f1ede7;
   color: #3b2e1e;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  /* h1,
-  h2,
-  h3,
-  h4 {
-    color: #292015;
-  } */
+}
 
-  .title {
-    color: #292015;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #292015;
+  margin: 0;
+  padding: 0;
+}
 
-  p {
-    margin: 0;
-  }
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -26,38 +35,70 @@ header {
   align-items: center;
   max-width: 100%;
   padding: 1.25rem 3.125rem;
+}
 
-  .header-title {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .sub-title {
-      margin: 0;
-    }
+.header-title h2 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.language-squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
+  .language-logo {
+    margin: 0.4375rem;
   }
+}
 
-  .language-squares {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0.3125rem 0.3125rem 0.625rem 0.3125rem;
-    .language-logo {
-      margin: 0.4375rem;
-    }
-  }
+.header-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.social-media-logos > :nth-child(2) {
+  margin-left: 2px;
+  margin-right: 2px;
+}
 
-  .social-media-logos > :nth-child(2) {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
+nav {
+  width: 100%;
+  background-color: #344224;
+  color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.navbar-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.navbar-list a {
+  color: #ffffff;
+}
+
+.navbar-list a:hover {
+  color: #aeb4a8;
+}
+
+.logo-link {
+  margin-top: 5px;
 }

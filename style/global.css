@@ -1,0 +1,34 @@
+/* TODO - 1.Add shadows to everything + shadows on-hover, 2. Make logos and language squares change color on hover */
+/* TODO - Create copies of mockups for both sizes - side by side comparison*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1ede7;
+  color: #3b2e1e;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #292015;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

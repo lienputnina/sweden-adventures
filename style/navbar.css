@@ -1,0 +1,36 @@
+/* Mobile */
+nav {
+  background-color: #344224;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.navbar-list {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  list-style: none;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.navbar-list-item {
+  color: #ffffff;
+}
+
+/* Desktop*/
+@media all and (min-width: 500px) {
+  .navbar-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,132 @@
+/* "Mobile" view */
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 50px;
+  padding: 20px 30px;
+}
+
+.website-logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.header-text h1,
+.header-text h2 {
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.header-text h2 {
+  line-height: 0.9rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.language-buttons {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-buttons .language-button {
+  width: 42px;
+  height: 36px;
+  background: none;
+  color: #344224;
+  border: 1px solid #344224;
+  border-radius: 2px;
+}
+
+.language-buttons .language-button[selected="true"] {
+  background-color: #344224;
+  color: #fff;
+}
+
+.social-media-logos {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+}
+
+/* "Desktop" view */
+@media all and (min-width: 500px) {
+  header {
+    grid-template-rows: 75px 75px;
+  }
+
+  .website-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .header-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .language-buttons {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    align-items: end;
+    padding-bottom: 6px;
+  }
+
+  .social-media-logos {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    align-items: start;
+    padding-top: 6px;
+  }
+}

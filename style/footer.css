@@ -1,0 +1,47 @@
+/* Mobile */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #d8e2cb;
+  padding: 1rem;
+}
+
+#footer-first-row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+#contacts {
+  width: min-content;
+}
+
+#disclaimer {
+  text-align: center;
+  line-height: 1.15;
+}
+
+.social-media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.social-icon-footer {
+  width: 36px;
+  height: 36px;
+}
+
+/* Desktop */
+@media all and (min-width: 500px) {
+  #footer-first-row {
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  #contacts {
+    width: max-content;
+  }
+}

@@ -51,8 +51,11 @@
   padding: 1rem;
   background-color: #d7cfbd;
   width: 100%;
-  /* max-height: 200px;
-  overflow: hidden; */
+  box-shadow: 0px 3px 6px #62584b;
+}
+
+.article-card:hover {
+  box-shadow: 0px 8px 10px #62584b;
 }
 
 .article-card-img {

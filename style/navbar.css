@@ -21,6 +21,10 @@ nav {
   color: #ffffff;
 }
 
+.navbar-list-item:hover {
+  color: #a8bb92;
+}
+
 /* Desktop*/
 @media all and (min-width: 500px) {
   .navbar-list {

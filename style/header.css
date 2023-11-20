@@ -68,7 +68,7 @@ header {
   border-radius: 2px;
 }
 
-.language-buttons .language-button[selected="true"] {
+.language-buttons .language-button[data-selected-language="true"] {
   background-color: #344224;
   color: #fff;
 }

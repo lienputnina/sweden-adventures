@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
     <link rel="stylesheet" href="./style/footer.css" />
-
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +21,12 @@
     <header>
       <div class="website-logo">
         <a href="#">
-          <img src="./images/website_logo.png" width="90" height="90" />
+          <img
+            src="./images/website_logo.png"
+            alt="website-logo"
+            width="90"
+            height="90"
+          />
         </a>
       </div>
       <div class="header-text">
@@ -30,7 +34,9 @@
         <h2>A blog about my ERASMUS experiences in Sweden</h2>
       </div>
       <div class="language-buttons">
-        <button class="language-button" selected="true">LV</button>
+        <button class="language-button" data-selected-language="true">
+          LV
+        </button>
         <button class="language-button">ENG</button>
       </div>
       <div class="social-media-logos">
@@ -106,7 +112,7 @@
         </div>
       </div>
       <div class="article-cards">
-        <div class="article-card" id="learning-swedish">
+        <div class="article-card" id="learning-swedish-card">
           <div class="article-card-img">
             <div id="learning-swedish-card-img"></div>
           </div>
@@ -119,10 +125,10 @@
               (Swedish, Danish and Norwegian) and Insular Nordic languages
               (Faroese, Icelandic, Norn and Greenlandic Norse).
             </p>
-            <p id="read-more">Read more</p>
+            <p class="read-more">Read more</p>
           </div>
         </div>
-        <div class="article-card" id="deeply-interning">
+        <div class="article-card" id="deeply-interning-card">
           <div class="article-card-img">
             <div id="deeply-interning-card-img"></div>
           </div>
@@ -135,10 +141,10 @@
               all beginnings are challenging – new premises, new colleagues, new
               tasks, just to name a few.
             </p>
-            <p id="read-more">Read more</p>
+            <p class="read-more">Read more</p>
           </div>
         </div>
-        <div class="article-card" id="visit-sweden">
+        <div class="article-card" id="visit-sweden-card">
           <div class="article-card-img">
             <div id="visit-sweden-card-img"></div>
           </div>
@@ -151,10 +157,10 @@
               scenery, picturesque fishing villages, being the land of reindeer
               and endless summer sun.
             </p>
-            <p id="read-more">Read more</p>
+            <p class="read-more">Read more</p>
           </div>
         </div>
-        <div class="article-card" id="dreamland">
+        <div class="article-card" id="dreamland-card">
           <div class="article-card-img">
             <div id="dreamland-card-img"></div>
           </div>
@@ -167,7 +173,7 @@
               everything from what it’s like to live here in general (places,
               prices etc.) to sightseeing, learning the language and much more.
             </p>
-            <p id="read-more">Read more</p>
+            <p class="read-more">Read more</p>
           </div>
         </div>
       </div>

@@ -108,7 +108,7 @@
   gap: 5px;
 }
 
-#read-more {
+.read-more {
   color: #344224;
   align-self: flex-end;
   justify-self: center;

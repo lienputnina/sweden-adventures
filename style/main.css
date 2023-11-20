@@ -128,4 +128,12 @@
   .long-article {
     width: fit-content;
   }
+
+  .article-card-paragraph {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
 }

@@ -16,10 +16,11 @@
 }
 
 #long-article-img {
-  border: 1px solid red;
   width: 100%;
   height: 450px;
-  object-fit: cover;
+  border-radius: 4px;
+  background-image: url("/images/learning_swedish.jpg");
+  background-repeat: no-repeat;
 }
 
 .long-article-text {
@@ -55,10 +56,41 @@
 }
 
 .article-card-img {
-  border: 2px solid red;
   width: 50%;
   height: 150px;
-  object-fit: cover;
+  border-radius: 4px;
+}
+
+#learning-swedish-card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/learning_swedish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#deeply-interning-card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/deeply_interning.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#visit-sweden-card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/visit_sweden.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dreamland-card-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/dreamland.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .article-card-text {
